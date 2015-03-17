@@ -1,1 +1,28 @@
+Look up WoW API function for time check, function initializtion, and function calling
+Look up formatting and container UI code
+Look up file structure for wow addon
+
+
+
+
+Primary Components
+  Loader
+    Initializing wow API, watching for timer calls
+  Container
+  UI
+    Font, size, location, background, border, outline
+  UI Options configuration
+    Similar to weakauras? x/y offset, size, font, with either checkboxes or a drop down for entire modules
+      modules being TTK-T, TTK-B/E, TTO, TTOvTTK-T or TTOvTTK-B/E   (TTK-B/E = Time To Kill Boss/Encounter)
+        TTK-E - Singular display and split display for target switch fights (boss plus trash vs council/phase)
+  Calculation Code
+    Timer call
+    variable storage
+    mathematics
+    output
+    15% check
+    nil/bad storage, both initialization safey and 15%fail storage
+  
+
+
 --Main File
